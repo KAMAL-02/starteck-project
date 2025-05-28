@@ -36,7 +36,7 @@ import MyApplications from './pages/dashboard/jobseeker/MyApplications';
 import Profile from './pages/dashboard/Profile';
 
 // Set base URL for axios
-axios.defaults.baseURL = 'https://starteck-backend.vercel.app/api';
+axios.defaults.baseURL = 'https://starteck-project-6soy.vercel.app/api';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
