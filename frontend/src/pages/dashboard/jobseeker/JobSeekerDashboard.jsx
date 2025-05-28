@@ -426,11 +426,11 @@ const JobSeekerDashboard = () => {
               <div className="p-6">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
-                    <img
-                      src={getCompanyLogoUrl(job)}
-                      alt={job.company.name}
-                      className="h-12 w-12 rounded-full object-cover border border-gray-700"
-                    />
+                    <div className="h-10 w-10 rounded-full bg-green-800 flex items-center justify-center">
+                          <span className="text-green-200 font-medium">
+                            {job.company.name[0]}
+                          </span>
+                        </div>
                     <div className="ml-4">
                       <h3 className="text-xl font-semibold text-white">
                         {job.title}
