@@ -255,7 +255,6 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useAuth } from '../../../context/AuthContext';
-import { getCompanyLogoUrl } from '../../../utils/imageUtils';
 
 const JobSeekerDashboard = () => {
   const { user } = useAuth();
